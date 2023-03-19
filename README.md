@@ -48,3 +48,29 @@ Based on the results of the t-tests, we can observe the following:
 The p-value is 0.04168, which is less than the 0.05 significance level. This means that we reject the null hypothesis, and there is enough evidence to conclude that the PSI for Lot3 is statistically different from the population mean of 1,500 PSI.
 ### Summary
 In summary, the t-tests show that the PSI values for Lot1 and Lot2 are not statistically different from the population mean of 1,500 PSI, while the PSI values for Lot3 are statistically different from the population mean. This suggests that there may be some inconsistencies in the manufacturing process for Lot3 that need to be investigated further.
+
+## Study Design: MechaCar vs Competition
+In order to compare the performance of MechaCar vehicles against the competition, we can design a statistical study that focuses on various key metrics that are of interest to consumers. For this study, we will focus on the following metrics:
+
+- Fuel efficiency (miles per gallon, or MPG) in both city and highway driving conditions.
+- Horsepower.
+- Maintenance cost.
+- Safety rating.
+### Hypotheses
+For each metric, we will set up the following null and alternative hypotheses:
+
+- Null hypothesis (H0): There is no significant difference in the selected metric between MechaCar vehicles and the competition.
+- Alternative hypothesis (H1): There is a significant difference in the selected metric between MechaCar vehicles and the competition.
+
+### Statistical Test
+To test these hypotheses, we will use the two-sample t-test for each metric. The two-sample t-test is appropriate in this case because it allows us to compare the means of two independent groups (MechaCar vehicles and the competition) to determine if there is a significant difference between them.
+
+### Data Required
+In order to perform the statistical tests, we will need the following data for both MechaCar vehicles and the competition:
+
+- Fuel efficiency data (city and highway MPG) for a representative sample of vehicles.
+- Horsepower data for a representative sample of vehicles.
+- Maintenance cost data for a representative sample of vehicles over a specific period or mileage.
+- Safety rating data for a representative sample of vehicles, preferably from a recognized organization or agency.
+
+By collecting this data and performing the two-sample t-tests, we can determine if there are any significant differences in the selected metrics between MechaCar vehicles and the competition, helping consumers make more informed decisions about their vehicle purchases.
