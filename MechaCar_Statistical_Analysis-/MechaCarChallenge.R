@@ -34,3 +34,21 @@ lot_summary <- coil_data %>%
             Variance = var(PSI),
             Standard_Deviation = sd(PSI))
 print(lot_summary)
+
+t_test_all <- t.test(coil_data$PSI, mu = 1500)
+print(t_test_all)
+
+lot1_data <- subset(coil_data, Manufacturing_Lot == "Lot1")
+t_test_lot1 <- t.test(lot1_data$PSI, mu = 1500)
+print(t_test_lot1)
+
+lot2_data <- subset(coil_data, Manufacturing_Lot == "Lot2")
+t_test_lot2 <- t.test(lot2_data$PSI, mu = 1500)
+print(t_test_lot2)
+
+lot3_data <- subset(coil_data, Manufacturing_Lot == "Lot3")
+t_test_lot3 <- t.test(lot3_data$PSI, mu = 1500)
+print(t_test_lot3)
+
+
+
