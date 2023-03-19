@@ -34,3 +34,17 @@ The design specifications for the MechaCar suspension coils dictate that the var
 The variance for Lot1 and Lot2 is below 100, which means the design specification is met for these lots individually. However, the variance for Lot3 is 170, which exceeds the limit of 100. Therefore, the design specification is not met for Lot3.
 
 In conclusion, the current manufacturing data meets the design specification for all manufacturing lots combined and for Lot1 and Lot2 individually. However, the design specification is not met for Lot3, as its variance exceeds the allowed limit of 100 pounds per square inch.  
+
+## T-Tests on Suspension Coils
+Based on the results of the t-tests, we can observe the following:
+
+### For all manufacturing lots combined:
+- The p-value is 0.06028, which is greater than the 0.05 significance level. This means that we fail to reject the null hypothesis, and there is not enough evidence to conclude that the PSI for all manufacturing lots combined is statistically different from the population mean of 1,500 PSI.
+### For Lot1:
+- The p-value is 1, which is greater than the 0.05 significance level. This means that we fail to reject the null hypothesis, and there is not enough evidence to conclude that the PSI for Lot1 is statistically different from the population mean of 1,500 PSI.
+### For Lot2:
+- The p-value is 0.6072, which is greater than the 0.05 significance level. This means that we fail to reject the null hypothesis, and there is not enough evidence to conclude that the PSI for Lot2 is statistically different from the population mean of 1,500 PSI.
+### For Lot3:
+The p-value is 0.04168, which is less than the 0.05 significance level. This means that we reject the null hypothesis, and there is enough evidence to conclude that the PSI for Lot3 is statistically different from the population mean of 1,500 PSI.
+### Summary
+In summary, the t-tests show that the PSI values for Lot1 and Lot2 are not statistically different from the population mean of 1,500 PSI, while the PSI values for Lot3 are statistically different from the population mean. This suggests that there may be some inconsistencies in the manufacturing process for Lot3 that need to be investigated further.
